@@ -2,6 +2,7 @@
 
 [Original Link](http://www.newthinktank.com/2016/04/assembly-language-tutorial)
 
+[YouTube video](https://www.youtube.com/watch?v=ViNnfoE56V8)
 
 ## I. Introduction
 
