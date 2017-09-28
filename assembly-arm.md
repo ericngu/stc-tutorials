@@ -27,17 +27,17 @@ remember.
 
 1. Install Vim : sudo apt-get install vim
 
-2. Create a working directory : ```mkdir ASM\ Projects```
+2. Create a working directory : `mkdir ASM\ Projects`
 
-3. If you get the error No Space on Device message : sudo raspi-config expand_rootfs and then reboot
+3. If you get the error No Space on Device message : `sudo raspi-config expand_rootfs` and then reboot
 
-4. Create the source file asmtut1.s : ```vim asmtut1.s```
+4. Create the source file asmtut1.s : `vim asmtut1.s`
 
 5. Vim Commands
 
-	a. i : insert mode
+	a. `i` : insert mode
 
-	b. <ESC> : enter command mode
+	b. `<ESC>` : enter command mode
 
 		i.   w : Save / Don't Exit
 		ii.  wq: Save / Quit
@@ -49,7 +49,7 @@ remember.
 
 	c. Move around with arrows
 
-	d. ```:set number``` displays line numbers
+	d. `:set number` displays line numbers
 
 	e. More commands will be covered as needed
 
@@ -76,17 +76,17 @@ remember.
 
 7. Compile Code
 
-	a. ```as -o asmtut.o asmtut.s```
+	a. `as -o asmtut.o asmtut.s`
 
-	1. ```Create an object file```
+	1. `Create an object file`
 
-	b. ```ld -o asmtut asmtut.o```
+	b. `ld -o asmtut asmtut.o`
 
-	1. ```Make an executable file by linking files together```
+	1. `Make an executable file by linking files together`
 
-	c. ```Execute with ./asmtut ; echo $?```
+	c. `Execute with ./asmtut ; echo $?`
 
-8. If you type ```echo $?``` in the terminal the value stored in R0 is returned
+8. If you type `echo $?` in the terminal the value stored in R0 is returned
 
 9. Second Program
 	```
