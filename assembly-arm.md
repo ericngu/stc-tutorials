@@ -25,11 +25,11 @@ remember.
 
 ## II. Setup
 
-1. Install Vim : sudo apt-get install vim
+1. Install Vim and binutils : `pkg install vim` && `pkg install binutils`
 
 2. Create a working directory : `mkdir ASM\ Projects`
 
-3. If you get the error No Space on Device message : `sudo raspi-config expand_rootfs` and then reboot
+3. (Not necessary if using Termux) If you get the error No Space on Device message : `sudo raspi-config expand_rootfs` and then reboot
 
 4. Create the source file asmtut1.s : `vim asmtut1.s`
 
