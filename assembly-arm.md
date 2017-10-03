@@ -58,16 +58,28 @@ remember.
 	```
 	@ I'm a comment
 	/* I'm a multiline comment */
+	```
+	```
 	@ Define where your instructions start, but this isn't needed
 	.text
+	```
+	```
 	@ Defines _start as a global available to the whole program
 	.global _start
+	```
+	```
 	@ Define starting point and that it is a label with :
 	_start:
+	```
+	```
 	@ Move the value 65 into register 0
 	MOV R0, #65
+	```
+	```
 	@ Move the value 1 into register 7
 	MOV R7, #1
+	```
+	```
 	@ End the program and return to the terminal
 	SWI 0
 	```
